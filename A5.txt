@@ -9,6 +9,7 @@ SELECT sname, city from salespeople
 Where city='london' and comm>'.10';
    
 3) Write a query on the Customers table whose output will exclude all customers with a rating <= 100, unless they are located in Rome.  
+
 SELECT *from customers
 where rating >100 OR city='Rome'; 
 
@@ -50,8 +51,5 @@ FROM Salespeople
 WHERE (comm > .12
        OR comm <.14);
 -----
-SELECT *  from salespeople where (comm>.12 OR comm<.14);
-
-
  SELECT snum,sname,city,comm FROM salespeople
  WHERE comm ='.13';

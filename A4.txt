@@ -19,3 +19,5 @@ where city='San Jose';
 5) Write a query that will produce the snum values of all salespeople (suppress the duplicates) with orders in the Orders table. 
 select DISTINCT snum from salespeople 
 ORDER BY snum;
+
+
